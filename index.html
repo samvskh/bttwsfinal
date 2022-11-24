@@ -10,23 +10,65 @@
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play bttws.</tw-noscript></noscript></tw-story>
 <tw-storydata name="bttws" startnode="1" creator="Twine" creator-version="2.5.1" format="Harlowe" format-version="3.3.3" ifid="E44AB012-B360-4BEA-AAAE-6D6BA0858DB0" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-story { background-color: #ADD8E6 ;}
-tw-passage {
-    font-family: avenir;
-}
-tw-passage {
-color:black;
-}
 
-tw-passage {
-   text-align: justify; 
+tw-passage {font-family: avenir;}
 
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="startup" color="red"></tw-tag><tw-passagedata pid="1" name="begin" tags="" position="450,350" size="100,100">(set: $name to (prompt: &quot;What is your name?&quot;, &quot;Betty&quot;))
+tw-passage {color:black;}
+
+tw-passage {text-align: justify; }
+
+tw-story[tags~="clouds"]{background-image:url("https://images.unsplash.com/photo-1499346030926-9a72daac6c63?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&w=1000&q=80");background-size:cover;}
+
+tw-story[tags~="room"]{background-image:url("https://i.pinimg.com/originals/86/84/f9/8684f987a7afa742fc841ec0a7773d57.jpg");background-size:cover;}
+
+tw-passage[tags~="room"]{color:white;}
+
+tw-story[tags~="park"]{background-image:url("https://wallpaperaccess.com/full/1587808.jpg");background-size:cover;}
+
+tw-passage[tags~="park"]{color:white;}
+
+tw-story[tags~="cr"]{background-image:url("https://img.freepik.com/premium-photo/illuminated-classical-carousel-night-street-gdansk-city_627281-404.jpg?w=2000")}
+
+tw-story [tags~="cr"]{background-image:url("https://colourlex.com/wp-content/uploads/2021/02/vine-black-painted-swatch.jpg") opacity: 0.5;}
+
+tw-passage[tags~="cr"]{color:white; background-color: rgba(34, 34, 34, 0.6);}
+
+tw-story[tags~="fw"]{background-image:url("https://upload.wikimedia.org/wikipedia/commons/0/0d/Isle_of_Wight_Festival_2008_ferris_wheel_at_night.jpg")}
+
+tw-passage[tags~="fw"]{color:white; background-color: rgba(34, 34, 34, 0.6);}
+
+tw-story[tags~="train"]{background-image:url("https://pbs.twimg.com/media/CubWfeNWgAAssLu.jpg:large")}
+
+tw-passage[tags~="train"]{color:white; background-color: rgba(34, 34, 34, 0.6);}
+
+tw-story[tags~="fair"]{background-image:url("https://c1.wallpaperflare.com/preview/457/391/669/carnival-rides-night-ferris-wheel-carnival.jpg");background-size:cover;}
+
+tw-passage[tags~="fair"]{color:white; background-color: rgba(34, 34, 34, 0.6);}
+
+tw-story[tags~="mom"]{background-image:url("https://www.homeserve.com/en-us/assets/images/blog/home-improvement/SnowCoveredHouses.jpg");background-size:cover;}
+
+tw-passage[tags~="mom"]{color:white; background-color: rgba(34, 34, 34, 0.6);}
+
+tw-story[tags~="dad"]{background-image:url("https://media.istockphoto.com/id/1212170511/photo/scandinavian-style-living-room-interior.jpg?s=612x612&w=0&k=20&c=3iI_6kD95u4mDx8wBx8gktvFpvA1rceZfAsC0WCO82c=");background-size:cover;}
+
+tw-passage[tags~="dad"]{color:white;}
+
+tw-story[tags~="heaven"]{background-image:url("https://wallpapercave.com/wp/wp4077001.jpg")}
+
+tw-passage[tags~="heaven"]{color:white; background-color: rgba(34, 34, 34, 0.6);}
+
+tw-story[tags~="roof"]{background-image:url("https://e1.pxfuel.com/desktop-wallpaper/664/238/desktop-wallpaper-anime-school-rooftop-backgrounds-night-anime-rooftops-building-night.jpg");background-size:cover;}
+
+tw-passage[tags~="roof"]{color:white; background-color: rgba(34, 34, 34, 0.6);}
+
+tw-story[tags~="letter"]{background-image:url("https://img.lovepik.com/background/20211021/large/lovepik-letter-paper-background-image_401298983.jpg");background-size:cover;}
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="startup" color="red"></tw-tag><tw-passagedata pid="1" name="begin" tags="train" position="450,350" size="100,100">(set: $name to (prompt: &quot;What is your name?&quot;, &quot;Betty&quot;))
 
 You enter the train station, it&#39;s insanely crowded. You push yourself against the crowd to get to the front of the line, people stare at you angrily but honestly, you really can&#39;t miss this train. 
 
 You get to the front of the line and you see the train approaching you quickly, you look down at your phone to check the time, you feel a hand on your back and the next thing you know... 
 
-[[ CRASH ]] </tw-passagedata><tw-passagedata pid="2" name=" CRASH " tags="" position="575,125" size="100,100">When you open your eyes, you find yourself lying on a fluff of clouds. You look around and around you, all you see is light blue. 
+[[ CRASH ]] </tw-passagedata><tw-passagedata pid="2" name=" CRASH " tags="clouds" position="575,125" size="100,100">When you open your eyes, you find yourself lying on a fluff of clouds. You look around and around you, all you see is light blue. 
 
 You&#39;re up in the sky. 
 
@@ -36,7 +78,7 @@ From the looks of it though, looks like you&#39;re in heaven.. somehow!
 
 In front of you, there is a glimmering bridge leading to a shining door. You&#39;re in disbelief. 
 
-[[ Walk towards it ]]</tw-passagedata><tw-passagedata pid="3" name=" Walk towards it " tags="" position="750,125" size="100,100">You take a step but you find yourself frozen in place, your feet won&#39;t move. 
+[[ Walk towards it ]]</tw-passagedata><tw-passagedata pid="3" name=" Walk towards it " tags="clouds" position="750,125" size="100,100">You take a step but you find yourself frozen in place, your feet won&#39;t move. 
 
 Panic sets in. 
 
@@ -44,89 +86,132 @@ Deep breaths.
 
 Breaths? You&#39;re dead, there is nothing coming out of your nostrils. 
 
-You try to take another step [[ to no avail ]]</tw-passagedata><tw-passagedata pid="4" name=" to no avail " tags="" position="900,275" size="100,100">Okay, so you can&#39;t move. What now? 
+You try to take another step [[ to no avail ]]</tw-passagedata><tw-passagedata pid="4" name=" to no avail " tags="clouds" position="900,275" size="100,100">Okay, so you can&#39;t move. What now? 
 
 You stand there, confused. You look around, and there really is nothing else around tangible around you. Maybe this is just how it goes in the aftermath, you just wait around for like, heaven&#39;s customer service to come to you. 
 
-[[ You were right ]]</tw-passagedata><tw-passagedata pid="5" name=" You were right " tags="" position="600,350" size="100,100">Out of thin air, a flying angel baby (with a halo and everything) appears in front of you. As much as you hate children, this one was actually very cute. 
+[[ You were right ]]</tw-passagedata><tw-passagedata pid="5" name=" You were right " tags="clouds" position="600,350" size="100,100">Out of thin air, a flying angel baby (with a halo and everything) appears in front of you. As much as you hate children, this one was actually very cute. 
 
 And then he starts talking. 
 
-&#39;&#39;Angel Baby&#39;&#39;: //Welcome to death, $name! //
+(after:2s)
 
-&#39;&#39; You &#39;&#39;: //Thanks! Am I in heaven? //
+[&#39;&#39;Angel Baby&#39;&#39;: //Welcome to death, $name! //]
 
-&#39;&#39;Angel Baby&#39;&#39;: //No! //
+(after:4s)
 
-&#39;&#39;You&#39;&#39;: //Oh? //
+[&#39;&#39; You &#39;&#39;: //Thanks! Am I in heaven? //]
 
-&#39;&#39; Angel Baby&#39;&#39;: //Not.. yet, at least. //
+(after:6s)
 
-&#39;&#39; You&#39;&#39;: //Excuse me? //
+[&#39;&#39;Angel Baby&#39;&#39;: //No! //]
 
-&#39;&#39;Angel Baby&#39;&#39;: //Not yet, $name. //
+(after:8s)
 
-&#39;&#39;You&#39;&#39;: [[Why?]]</tw-passagedata><tw-passagedata pid="6" name="Why?" tags="" position="750,450" size="100,100">Suddenly, the surrounding around you change and you&#39;re in Joe&#39;s room. Empty liquor bottles littered his furniture, you&#39;ve never seen it at such a state. 
+[&#39;&#39;You&#39;&#39;: //Oh? //]
 
-&#39;&#39;Angel Baby&#39;&#39;: //Because of him, $name.// 
+(after:10s)
 
-&#39;&#39;You&#39;&#39;: //I&#39;m dead, what am I supposed to do?// 
+[&#39;&#39; Angel Baby&#39;&#39;: //Not.. yet, at least. //]
 
-&#39;&#39;Angel Baby&#39;&#39;: //You have until sunrise until he jumps off this building. You weren&#39;t supposed to die the way you did, it was a 1 in 5,4372,677,095,394 possibility and yet..//
+(after: 12s)
 
-&#39;&#39;You&#39;&#39;: //Why him? Do we all have to do this?// 
+[&#39;&#39; You&#39;&#39;: //Excuse me? //]
 
-&#39;&#39;Angel Baby&#39;&#39;: //I can&#39;t tell you that now.// 
+(after:14s)
 
-&#39;&#39;You&#39;&#39;: //What if I can&#39;t save him? Am I going to hell?// 
+[&#39;&#39;Angel Baby&#39;&#39;: //Not yet, $name. //]
 
-&#39;&#39;Angel Baby&#39;&#39;: //No, you&#39;re not a bad person. You&#39;re not an amazing one either, though. You&#39;ll go into eternal sleep, it&#39;s quite peaceful actually.// 
+(after:16s)
 
-You stand there, not sure what to say or do. You look at your boyfriend, he&#39;s staring at the ceiling. So, [[what now?]]</tw-passagedata><tw-passagedata pid="7" name="what now?" tags="" position="925,425" size="100,100">The angel baby gives you until sunrise - so, approximately 5 hours. 
+[&#39;&#39;You&#39;&#39;: [[Why?]]]</tw-passagedata><tw-passagedata pid="6" name="Why?" tags="room" position="750,450" size="100,100">Suddenly, the surrounding around you change and you&#39;re in Joe&#39;s room. Empty liquor bottles littered his furniture, you&#39;ve never seen it at such a state. 
 
-&#39;&#39;Angel Baby&#39;&#39;: //You&#39;ll appear to him as a ghost, you can transport him to places, interact with things and talk to him - but you can&#39;t touch him. Save him, please. I&#39;ll see you when this rings. Here, [[the full list.]]//
+(after:2s)
+[&#39;&#39;Angel Baby&#39;&#39;: //Because of him, $name.// ]
 
-And with that he disappears into thin air. 
+(after:3s)
+[&#39;&#39;You&#39;&#39;: //I&#39;m dead, what am I supposed to do?//]
+
+(after:4s)
+[&#39;&#39;Angel Baby&#39;&#39;: //You have until sunrise until he jumps off this building. You weren&#39;t supposed to die the way you did, it was a 1 in 5,4372,677,095,394 possibility and yet..//]
+
+(after:5s)
+[&#39;&#39;You&#39;&#39;: //Why him? Do we all have to do this?//]
+
+(after:6s)
+[&#39;&#39;Angel Baby&#39;&#39;: //I can&#39;t tell you that now.//]
+
+(after:7s)
+[&#39;&#39;You&#39;&#39;: //What if I can&#39;t save him? Am I going to hell?//]
+
+(after:8s)
+[&#39;&#39;Angel Baby&#39;&#39;: //No, you&#39;re not a bad person. You&#39;re not an amazing one either, though. You&#39;ll go into eternal sleep, it&#39;s quite peaceful actually.//]
+
+(after: 9s)
+[You stand there, not sure what to say or do. You look at your boyfriend, he&#39;s staring at the ceiling. So, [[what now?]]]</tw-passagedata><tw-passagedata pid="7" name="what now?" tags="clouds" position="925,425" size="100,100">The angel baby gives you until sunrise - so, approximately 5 hours. 
+
+(after:1s)
+[&#39;&#39;Angel Baby&#39;&#39;: //You&#39;ll appear to him as a ghost, you can transport him to places, interact with things and talk to him - but you can&#39;t touch him. Save him, please. I&#39;ll see you when this rings. Here, [[the full list.]]//]
+
+(after: 2s)
+[And with that he disappears into thin air. 
 
 You lie next to Joe. 
 
 You&#39;re not even sure if he can see you, so you will it into existence. 
 
-[[Joe can see me.]]</tw-passagedata><tw-passagedata pid="8" name="Joe can see me." tags="" position="1050,325" size="100,100">He turns to the side and his eyes lock onto yours. Strangely enough, he doesn&#39;t really react. 
+[[Joe can see me.]]]</tw-passagedata><tw-passagedata pid="8" name="Joe can see me." tags="room" position="1050,300" size="100,100">He turns to the side and his eyes lock onto yours. Strangely enough, he doesn&#39;t really react. 
 
-&#39;&#39;Joe&#39;&#39;: //You&#39;re not real, go away.//
+(after:2s)
+[&#39;&#39;Joe&#39;&#39;: //You&#39;re not real, go away.//]
 
-He turns way and continues looking into the ceiling. 
+(after:3s)
+[He turns way and continues looking into the ceiling.]
 
-&#39;&#39;You&#39;&#39;: //I&#39;m real, Joe.// 
+(after:4s)
+[&#39;&#39;You&#39;&#39;: //I&#39;m real, Joe.//] 
 
-&#39;&#39;Joe&#39;&#39;: //You died three months ago. Look, I can&#39;t even touch you.// 
+(after:5s)
+[&#39;&#39;Joe&#39;&#39;: //You died three months ago. Look, I can&#39;t even touch you.// 
 
-He tries to touch you but you have the same density as air. 
+He tries to touch you but you have the same density as air. ]
 
-&#39;&#39;You&#39;&#39;: //I&#39;m a ghost, an angel sent me down here.// 
+(after:6s)
+[&#39;&#39;You&#39;&#39;: //I&#39;m a ghost, an angel sent me down here.//]
 
-&#39;&#39;Joe&#39;&#39;: //Shut up, man.// 
+(after:7s)
+[&#39;&#39;Joe&#39;&#39;: //Shut up, man.// 
 
-You touch his arm and you take him somewhere else.  You take him to [[The park]] where you had your first kiss. </tw-passagedata><tw-passagedata pid="9" name="The park" tags="" position="1025,125" size="100,100">You and Joe are on the swings, he&#39;s on the right side and you&#39;re on the left. Your hands are entertwined for a second, until he realises that he&#39;s holding onto nothing. Right. 
+You touch his arm and you take him somewhere else.  You take him to [[The park]] where you had your first kiss. ]</tw-passagedata><tw-passagedata pid="9" name="The park" tags="park" position="1025,125" size="100,100">You and Joe are on the swings, he&#39;s on the right side and you&#39;re on the left. Your hands are entertwined for a second, until he realises that he&#39;s holding onto nothing. Right. 
 
 He&#39;s confused. He looks at you, mouth agape, his eyes have become glassy. 
 
-&#39;&#39;Joe&#39;&#39;: //You&#39;re here.// 
+(after:2s)
+[&#39;&#39;Joe&#39;&#39;: //You&#39;re here.//]
 
-&#39;&#39;You&#39;&#39;: //I&#39;m here, Joe.// 
+(after:3s)
+[&#39;&#39;You&#39;&#39;: //I&#39;m here, Joe.//]
 
-&#39;&#39;Joe&#39;&#39;: //I&#39;ve missed you so fucking much, $name. I can&#39;t - like, I haven&#39;t been able to - I can&#39;t move on. How am I supposed to go on?//
+(after:4s)
+[&#39;&#39;Joe&#39;&#39;: //I&#39;ve missed you so fucking much, $name. I can&#39;t - like, I haven&#39;t been able to - I can&#39;t move on. How am I supposed to go on?//]
 
-&#39;&#39;You&#39;&#39;: //That&#39;s actually why I&#39;m here, you have to go on. You can&#39;t let me stop you from living your life.// 
+(after: 5s)
+[&#39;&#39;You&#39;&#39;: //That&#39;s actually why I&#39;m here, you have to go on. You can&#39;t let me stop you from living your life.//]
 
-&#39;&#39;Joe&#39;&#39;: //I can&#39;t.//
+(after: 6s)
+[&#39;&#39;Joe&#39;&#39;: //I can&#39;t.//]
 
-&#39;&#39;You&#39;&#39;: //Okay, I&#39;m not sure how this ghost thing works but -//
+(after:7s)
+[&#39;&#39;You&#39;&#39;: //Okay, I&#39;m not sure how this ghost thing works but -//]
+
+(after:8s)
+[
 
 [[Take him to the memory at the park]] 
 
-[[Stay with him]]</tw-passagedata><tw-passagedata pid="10" name="Take him to the memory at the park" tags="" position="1225,50" size="100,100">You touch his heart and you see the park come to life like it did that day. It was a spring afternoon. 
+[[Stay with him]]
+
+]</tw-passagedata><tw-passagedata pid="10" name="Take him to the memory at the park" tags="park" position="1225,50" size="100,100">You touch his heart and you see the park come to life like it did that day. It was a spring afternoon. 
 
 You are invisible.
 
@@ -142,49 +227,69 @@ You take the memory away and you&#39;re back in this [[lonely park.]]
 
 
 
-</tw-passagedata><tw-passagedata pid="11" name="Stay with him" tags="" position="1275,275" size="100,100">You take a branch lying on the ground and poke him with it. 
+</tw-passagedata><tw-passagedata pid="11" name="Stay with him" tags="park" position="1275,275" size="100,100">You take a branch lying on the ground and poke him with it. 
 
-&#39;&#39;You&#39;&#39;: //Touch the other end.//
+(after:1s)
+[&#39;&#39;You&#39;&#39;: //Touch the other end.//
 
-He lets out a small laugh, it brings a sense of warmth to your cold body. 
+He lets out a small laugh, it brings a sense of warmth to your cold body. ]
 
-&#39;&#39;Joe&#39;&#39;: //Okay.// 
+(after:2s)
+[&#39;&#39;Joe&#39;&#39;: //Okay.// 
 
-He hold the other end of the stick and you swing it playfully. 
+He hold the other end of the stick and you swing it playfully. ]
 
-&#39;&#39;You&#39;&#39;: //We&#39;re basically holding hands.// 
+(after:3s)
+[&#39;&#39;You&#39;&#39;: //We&#39;re basically holding hands.// 
 
-He smiles and you stay like that for a while. 
+He smiles and you stay like that for a while. ]
 
-&#39;&#39;Joe&#39;&#39;: //Can we go back to my room? I want to show you something.// 
+(after:4s)
+[&#39;&#39;Joe&#39;&#39;: //Can we go back to my room? I want to show you something.// 
 
-You nod, placing your hand on his and now you&#39;re back in [[his room.]]</tw-passagedata><tw-passagedata pid="12" name="lonely park." tags="" position="1400,175" size="100,100">A ghost of a smile leaves his face, and tears just start falling from his eyes. 
+You nod, placing your hand on his and now you&#39;re back in [[his room.]]
+]</tw-passagedata><tw-passagedata pid="12" name="lonely park." tags="park" position="1400,175" size="100,100">A ghost of a smile leaves his face, and tears just start falling from his eyes. 
 
-&#39;&#39;Joe&#39;&#39;: //Why&#39;d you do that?// 
+(after:2s)
+[&#39;&#39;Joe&#39;&#39;: //Why&#39;d you do that?//]
 
-&#39;&#39;You&#39;&#39;: //I wanted you to stop feeling miserable, even for just a second.// 
+(after:3s)
+[&#39;&#39;You&#39;&#39;: //I wanted you to stop feeling miserable, even for just a second.//]
 
-&#39;&#39;Joe&#39;&#39;: //I appreciate the thought but.. how do you expect me to hold on when I&#39;d give anything to just feel that again?//
+(after:4s)
+[&#39;&#39;Joe&#39;&#39;: //I appreciate the thought but.. how do you expect me to hold on when I&#39;d give anything to just feel that again?//]
 
-&#39;&#39;You&#39;&#39;: //Because if you give up on me now, you won&#39;t feel like that anymore.// 
+(after:5s)
+[&#39;&#39;You&#39;&#39;: //Because if you give up on me now, you won&#39;t feel like that anymore.//]
 
-&#39;&#39;Joe&#39;&#39;: //What do you mean?// 
+(after:6s)
+[&#39;&#39;Joe&#39;&#39;: //What do you mean?//]
 
-&#39;&#39;You&#39;&#39;: //You can&#39;t die, Joe.// 
+(after:7s)
+[&#39;&#39;You&#39;&#39;: //You can&#39;t die, Joe.//]
 
-&#39;&#39;Joe&#39;&#39;: //I have nothing to live for. You wouldn&#39;t get it.// 
+(after: 8s)
+[&#39;&#39;Joe&#39;&#39;: //I have nothing to live for. You wouldn&#39;t get it.//]
 
-&#39;&#39;You&#39;&#39;: //What about your family?//
+(after:9s)
+[&#39;&#39;You&#39;&#39;: //What about your family?//]
 
-&#39;&#39;Joe&#39;&#39;: //I haven&#39;t spoken to them since..// 
+(after:10s)
+[&#39;&#39;Joe&#39;&#39;: //I haven&#39;t spoken to them since..//]
 
-&#39;&#39;You&#39;&#39;: //Joe...// 
+(after:11s)
+[&#39;&#39;You&#39;&#39;: //Joe...// ]
 
-Where do you take him? 
+(after:12s)
+[Where do you take him?]
 
+
+(after: 13s)
+[
 [[ When you first met his mom ]] 
 
-[[ When you first met his dad ]]</tw-passagedata><tw-passagedata pid="13" name="the full list." tags="" position="900,625" size="100,100">
+[[ When you first met his dad ]]
+]</tw-passagedata><tw-passagedata pid="13" name="the full list." tags="words" position="900,625" size="100,100">
 
 1. A living person can only see you if you want them to see you. 
 
@@ -199,7 +304,7 @@ Where do you take him?
 Do you understand? 
 
 [[ Yes -&gt;what now?]] 
-</tw-passagedata><tw-passagedata pid="14" name=" When you first met his mom " tags="" position="1550,75" size="100,100">His parents got divorced when he was fifteen, his mom, Miranda - got custody of his younger brother, Seth - while Joe stayed with his dad. 
+</tw-passagedata><tw-passagedata pid="14" name=" When you first met his mom " tags="mom" position="1550,75" size="100,100">His parents got divorced when he was fifteen, his mom, Miranda - got custody of his younger brother, Seth - while Joe stayed with his dad. 
 
 He didn&#39;t see his mom often except for holidays, which was when we first met. Christmas, two years ago. 
 
@@ -207,21 +312,26 @@ We are now in front of his mom&#39;s house. Again, I watch. I saw him holding my
 
 I come closer to them. 
 
-&#39;&#39;Joe&#39;&#39;: //It&#39;s going to be okay, she&#39;ll love you.// 
+(after:3s)
+[&#39;&#39;Joe&#39;&#39;: //It&#39;s going to be okay, she&#39;ll love you.//]
 
-&#39;&#39;Past You&#39;&#39;: //Are you sure?// 
+(after:4s)
+[&#39;&#39;Past You&#39;&#39;: //Are you sure?//]
 
-&#39;&#39;Joe&#39;&#39;: //Well if she doesn&#39;t, I know I do.// 
+(after: 5s)
+[&#39;&#39;Joe&#39;&#39;: //Well if she doesn&#39;t, I know I do.//]
 
-&#39;&#39;Past You&#39;&#39;: //You, what?// 
+(after: 6s)
+[&#39;&#39;Past You&#39;&#39;: //You, what?//]
 
-You remember that it was also the first time he told you he loved you. The door opens and you see Miranda. Seth is hiding behind her. Joe introduces you to them and she greets you with a hug, Seth says &#39;hi&#39; and runs off. 
+(after:7s)
+[You remember that it was also the first time he told you he loved you. The door opens and you see Miranda. Seth is hiding behind her. Joe introduces you to them and she greets you with a hug, Seth says &#39;hi&#39; and runs off. 
 
 You realise that when you die you don&#39;t feel much at all, you just feel a sense of peace and contentment but when you stood there, watching Joe, Seth and you build blanket forts you felt it. You felt a twang of loss. 
 
 You look at the time, you have an hour left. 
 
-[[ Go back to the present ]]</tw-passagedata><tw-passagedata pid="15" name=" When you first met his dad " tags="" position="1550,300" size="100,100">His parents got divorced when he was fifteen and while his mom got his younger brother in the custody battle, he was left with his dad. 
+[[ Go back to the present ]]]</tw-passagedata><tw-passagedata pid="15" name=" When you first met his dad " tags="dad" position="1550,300" size="100,100">His parents got divorced when he was fifteen and while his mom got his younger brother in the custody battle, he was left with his dad. 
 
 They didn&#39;t have the best relationship, but as the years went on they learned to get along with each other - albeit, with a scuffle here and there. 
 
@@ -235,74 +345,99 @@ You didn&#39;t know it then, but it sets in to you now that this was also the mo
 
 When they&#39;re done, he finds you on the stairs and he&#39;s not mad. He takes your hand and leads you upstairs. 
 
-[[ Go back to the present -&gt; present 2 ]] </tw-passagedata><tw-passagedata pid="16" name=" Go back to the present " tags="" position="1700,175" size="100,100">You&#39;re both back on his bed. It&#39;s gray, lifeless, messy. You look to the side and you see him, face wet with tears. You grab a tissue and wipe his face, he softens to the touch of the tissue as if it&#39;s your own hands. 
+[[ Go back to the present -&gt; present 2 ]] </tw-passagedata><tw-passagedata pid="16" name=" Go back to the present " tags="room" position="1700,175" size="100,100">You&#39;re both back on his bed. It&#39;s gray, lifeless, messy. You look to the side and you see him, face wet with tears. You grab a tissue and wipe his face, he softens to the touch of the tissue as if it&#39;s your own hands. 
 
-&#39;&#39;Joe&#39;&#39;: //I miss you so much, $name.// 
+(after:2s)
+[&#39;&#39;Joe&#39;&#39;: //I miss you so much, $name.//]
 
-&#39;&#39;You&#39;&#39;: // I don&#39;t have much time left, Joe. Please.//
+(after:3s)
+[&#39;&#39;You&#39;&#39;: // I don&#39;t have much time left, Joe. Please.//]
 
-&#39;&#39;Joe&#39;&#39;:  //How long do you have?// 
+(after:4s)
+[&#39;&#39;Joe&#39;&#39;:  //How long do you have?//]
 
-&#39;&#39;You&#39;&#39;: //45 minutes.// 
+(after: 5s)
+[&#39;&#39;You&#39;&#39;: //45 minutes.//]
 
-&#39;&#39;Joe&#39;&#39;: //I don&#39;t know if I can do this.//
+(after: 6s)
+[&#39;&#39;Joe&#39;&#39;: //I don&#39;t know if I can do this.//]
 
-&#39;&#39;You&#39;&#39;: //If you can&#39;t do it for yourself, do it for Seth.// 
+(after: 7s)
+[&#39;&#39;You&#39;&#39;: //If you can&#39;t do it for yourself, do it for Seth.//]
 
-&#39;&#39;Joe&#39;&#39;: //I&#39;m going up to smoke.// 
+(after: 8s)
+[&#39;&#39;Joe&#39;&#39;: //I&#39;m going up to smoke.//]
 
-You feel a horrible sense of dread. 
+(after:9s)
+[You feel a horrible sense of dread.]
 
-&#39;&#39;You&#39;&#39;: //Let&#39;s not.//
+(after:10s)
+[&#39;&#39;You&#39;&#39;: //Let&#39;s not.//]
 
-He ignores you as he takes the lift to the rooftop, a box of cigarettes in his hands. 
+(after:11s)
+[He ignores you as he takes the lift to the rooftop, a box of cigarettes in his hands. 
 
-[[ Go up ]]</tw-passagedata><tw-passagedata pid="17" name=" Go up " tags="" position="1900,250" size="100,100">You know what&#39;s going to happen next, and you feel helpless. You watch Joe as he takes a drag out of his cigarette, not even looking at you.
+[[ Go up ]]]</tw-passagedata><tw-passagedata pid="17" name=" Go up " tags="roof" position="1900,250" size="100,100">You know what&#39;s going to happen next, and you feel helpless. You watch Joe as he takes a drag out of his cigarette, not even looking at you.
 
 You walk up to him. 
 
-&#39;&#39;Joe&#39;&#39;: //How do you think I feel, $name? You took me to some of the happiest moments of my life, and I know it&#39;s all in good faith - I know. But, you&#39;re giving me even less reasons to go on.//
+(after:2s)
+[&#39;&#39;Joe&#39;&#39;: //How do you think I feel, $name? You took me to some of the happiest moments of my life, and I know it&#39;s all in good faith - I know. But, you&#39;re giving me even less reasons to go on.//
 
-You realize that you&#39;ve seriously fucked up. 
+You realize that you&#39;ve seriously fucked up. ]
 
-&#39;&#39;You&#39;&#39;: //Joe, don&#39;t do this.// 
+(after:3s)
+[&#39;&#39;You&#39;&#39;: //Joe, don&#39;t do this.//]
 
-&#39;&#39;Joe&#39;&#39;: //Give me on good reason.//
+(after:4s)
+[&#39;&#39;Joe&#39;&#39;: //Give me on good reason.//]
 
-&#39;&#39;You&#39;&#39;: //Seth, Joe. SETH.//
+(after:5s)
+[&#39;&#39;You&#39;&#39;: //Seth, Joe. SETH.//
 
-He takes a long drag before looking at you straight in the eyes, he grimaces. 
+He takes a long drag before looking at you straight in the eyes, he grimaces. ]
 
-&#39;&#39;Joe&#39;&#39;: //Seth just got diagnosed with leukemia, $name.// 
+(after:6s)
+[&#39;&#39;Joe&#39;&#39;: //Seth just got diagnosed with leukemia, $name.//]
 
-&#39;&#39;You&#39;&#39;: //What?//
+(after:7s)
+[&#39;&#39;You&#39;&#39;: //What?//]
 
-&#39;&#39;Joe&#39;&#39;: //And I just can&#39;t go through another loss like that, I just can&#39;t.// 
+(after:8s)
+[&#39;&#39;Joe&#39;&#39;: //And I just can&#39;t go through another loss like that, I just can&#39;t.// 
 
-He finishes his first cigarette. I look at his cigarette packet and he takes out his lucky cigarette. That was the moment I knew there was nothing I could do to change his mind. 
+He finishes his first cigarette. I look at his cigarette packet and he takes out his lucky cigarette. That was the moment I knew there was nothing I could do to change his mind.] 
 
-&#39;&#39;Joe&#39;&#39;: //I wrote my goodbyes, they&#39;ll know how much I love them. Don&#39;t worry about me, okay?// 
+(after:9s)
+[&#39;&#39;Joe&#39;&#39;: //I wrote my goodbyes, they&#39;ll know how much I love them. Don&#39;t worry about me, okay?// 
 
 You look at the time, you have two minutes left. You feel your heart drop. 
 
-[[ Goodbye ]]
-</tw-passagedata><tw-passagedata pid="18" name=" Goodbye " tags="ending1" position="1750,350" size="100,100">His face lights up when the sun hits him, he smiles. He&#39;s glowing. 
+[[ Goodbye ]]]
+</tw-passagedata><tw-passagedata pid="18" name=" Goodbye " tags="roof" position="1750,350" size="100,100">His face lights up when the sun hits him, he smiles. He&#39;s glowing. 
 
-&#39;&#39;Joe&#39;&#39;: //I know that I&#39;m letting you down, and I&#39;m sorry but -// 
+(after:1s)
+[&#39;&#39;Joe&#39;&#39;: //I know that I&#39;m letting you down, and I&#39;m sorry but -//]
 
-&#39;&#39;You&#39;&#39;: //It&#39;s okay. It will be okay, Joe.// 
+(after:2s)
+[&#39;&#39;You&#39;&#39;: //It&#39;s okay. It will be okay, Joe.//]
 
-&#39;&#39;Joe&#39;&#39;: //It will be okay.// 
+(after:3s)
+[&#39;&#39;Joe&#39;&#39;: //It will be okay.// 
 
-You watch as the timer counts down from ten.
+You watch as the timer counts down from ten.]
 
-&#39;&#39;Joe&#39;&#39;: //Thank you for being the last thing I&#39;ll see.// 
+(after:4s)
+[&#39;&#39;Joe&#39;&#39;: //Thank you for being the last thing I&#39;ll see.//]
 
-&#39;&#39;You&#39;&#39;: //I love you.// 
+(after:5s)
+[&#39;&#39;You&#39;&#39;: //I love you.//]
 
-&#39;&#39;Joe&#39;&#39;: //I love you too.//
+(after:6s)
+[&#39;&#39;Joe&#39;&#39;: //I love you too.//
 
-You&#39;re back [[in the clouds -&gt;ending1]] </tw-passagedata><tw-passagedata pid="19" name="ending1" tags="" position="1900,450" size="100,100">You see the angel baby in front of you, he nods understandingly. He doesn&#39;t say anything instead, he holds your hand and leads you to the bridge. 
+You&#39;re back [[in the clouds -&gt;ending1]] 
+]</tw-passagedata><tw-passagedata pid="19" name="ending1" tags="clouds" position="1900,450" size="100,100">You see the angel baby in front of you, he nods understandingly. He doesn&#39;t say anything instead, he holds your hand and leads you to the bridge. 
 
 As you cross the bridge, you watch as your surroundings dissolve into blackness. You don&#39;t feel scared, you knew this was going to happen. 
 
@@ -311,29 +446,39 @@ With every step you take, you get more and more sleepy. Just as heaven&#39;s doo
 You fall asleep. 
 
 
-</tw-passagedata><tw-passagedata pid="20" name=" present 2 " tags="" position="1575,475" size="100,100">You&#39;re both back on his bed. It&#39;s gray, lifeless, messy. You look to the side and you see him, face wet with tears. You grab a tissue and wipe his face, he softens to the touch of the tissue as if it&#39;s your own hands. 
+&lt;audio src=&quot;https://iminluvwithjudas.weebly.com/uploads/1/4/3/9/143972805/taylor_swift_-_new_year’s_day__instrumental_.mp3&quot; autoplay&gt;
+</tw-passagedata><tw-passagedata pid="20" name=" present 2 " tags="room" position="1575,475" size="100,100">You&#39;re both back on his bed. It&#39;s gray, lifeless, messy. You look to the side and you see him, face wet with tears. You grab a tissue and wipe his face, he softens to the touch of the tissue as if it&#39;s your own hands. 
 
-&#39;&#39;Joe&#39;&#39;: //I miss you so much, $name.// 
+(after:2s)
+[&#39;&#39;Joe&#39;&#39;: //I miss you so much, $name.// ]
 
-&#39;&#39;You&#39;&#39;: // I don&#39;t have much time left, Joe. Please.//
+(after:3s)
+[&#39;&#39;You&#39;&#39;: // I don&#39;t have much time left, Joe. Please.//]
 
-&#39;&#39;Joe&#39;&#39;:  //How long do you have?// 
+(after:4s)
+[&#39;&#39;Joe&#39;&#39;:  //How long do you have?//]
 
-&#39;&#39;You&#39;&#39;: //45 minutes.// 
+(after:5s)
+[&#39;&#39;You&#39;&#39;: //45 minutes.//]
 
-&#39;&#39;Joe&#39;&#39;: //I don&#39;t know if I can do this.//
+(after:6s)
+[&#39;&#39;Joe&#39;&#39;: //I don&#39;t know if I can do this.//]
 
-&#39;&#39;You&#39;&#39;: //If you can&#39;t do it for yourself, do it for your dad. You know he can&#39;t be on ihs own..// 
+(after:7s)
+[&#39;&#39;You&#39;&#39;: //If you can&#39;t do it for yourself, do it for your dad. You know he can&#39;t be on ihs own..//]
 
-&#39;&#39;Joe&#39;&#39;: //I&#39;m going up to smoke.// 
+(after:8s)
+[&#39;&#39;Joe&#39;&#39;: //I&#39;m going up to smoke.//
 
-You feel a horrible sense of dread. 
+You feel a horrible sense of dread.]
 
-&#39;&#39;You&#39;&#39;: //Let&#39;s not.//
+(after:9s)
+[&#39;&#39;You&#39;&#39;: //Let&#39;s not.//
 
 He ignores you as he takes the lift to the rooftop, a box of cigarettes in his hands. 
 
-[[ Go up -&gt; up2 ]]</tw-passagedata><tw-passagedata pid="21" name=" up2 " tags="" position="1700,600" size="100,100">You know what&#39;s going to happen next, and you feel helpless. You watch Joe as he takes a drag out of his cigarette, not even looking at you.
+[[ Go up -&gt; up2 ]]
+]</tw-passagedata><tw-passagedata pid="21" name=" up2 " tags="roof" position="1700,575" size="100,100">You know what&#39;s going to happen next, and you feel helpless. You watch Joe as he takes a drag out of his cigarette, not even looking at you.
 
 You walk up to him. 
 
@@ -363,35 +508,46 @@ He finishes his first cigarette. I look at his cigarette packet and he takes out
 
 You look at the time, you have two minutes left. You feel your heart drop. 
 
-[[ Goodbye -&gt; Goodbye ]] </tw-passagedata><tw-passagedata pid="22" name="his room." tags="" position="1425,550" size="100,100">You&#39;re back in his room, you take in just how lifeless and messy it is. Joe realises. 
+[[ Goodbye -&gt; Goodbye ]] </tw-passagedata><tw-passagedata pid="22" name="his room." tags="room" position="1425,550" size="100,100">You&#39;re back in his room, you take in just how lifeless and messy it is. Joe realises. 
 
-&#39;&#39;Joe&#39;&#39;: //I know it&#39;s a mess.// 
+(after:2s)
+[&#39;&#39;Joe&#39;&#39;: //I know it&#39;s a mess.//]
 
-&#39;&#39;You&#39;&#39;: //You need to clean this, seriously.//
+(after:3s)
+[&#39;&#39;You&#39;&#39;: //You need to clean this, seriously.//
 
-He just lets out a soft laugh. He takes out his guitar and sits on the edge of his bed, you sit next to him. 
+He just lets out a soft laugh. He takes out his guitar and sits on the edge of his bed, you sit next to him.]
 
-&#39;&#39;Joe&#39;&#39;: //I didn&#39;t write this, obviously. But I know just how much you like Taylor Swift and uh, she released this like a month after... you know. When I first listened to it, I just cried like - so.// 
+(after:4s)
+[&#39;&#39;Joe&#39;&#39;: //I didn&#39;t write this, obviously. But I know just how much you like Taylor Swift and uh, she released this like a month after... you know. When I first listened to it, I just cried like - so.// 
 
 You&#39;ve always loved his voice. He&#39;s not much of a lyricist, that was more of you but you remember writing cute little songs with him. 
 
-He starts plucking the guitar, he&#39;s gentle with it and he starts to sing [[&#39;Bigger Than The Whole Sky&#39;]] by Taylor Swift. 
+He starts plucking the guitar, he&#39;s gentle with it and he starts to sing [[&#39;Bigger Than The Whole Sky&#39;]] by Taylor Swift. ]
 
-Though death has made your soul feel more at peace than ever, despite the fact that the words he&#39;s singing was not his, you felt it. You felt every single word, every single lyric as if he was the one saying them. 
+(after:6s)
+[Though death has made your soul feel more at peace than ever, despite the fact that the words he&#39;s singing was not his, you felt it. You felt every single word, every single lyric as if he was the one saying them. 
 
-When he stops singing, you see that his cheeks are wet. You grab a tissue and dab it, surprised that you can even do that. You keep your hands there and he leans into it. 
+When he stops singing, you see that his cheeks are wet. You grab a tissue and dab it, surprised that you can even do that. You keep your hands there and he leans into it.]
 
-&#39;&#39;Joe&#39;&#39;: //Please don&#39;t leave me again..//
+(after:7s)
+[&#39;&#39;Joe&#39;&#39;: //Please don&#39;t leave me again..//]
 
-&#39;&#39;You&#39;&#39;: //I can&#39;t, Joe. I have to go when the sun rises.// 
+(after:8s)
+[&#39;&#39;You&#39;&#39;: //I can&#39;t, Joe. I have to go when the sun rises.//]
 
-&#39;&#39;Joe&#39;&#39;: //We&#39;ll close the blinds and we never have to see the sun.//
+(after:9s)
+[&#39;&#39;Joe&#39;&#39;: //We&#39;ll close the blinds and we never have to see the sun.//]
 
-&#39;&#39;You&#39;&#39;: //No, Joe.// 
+(after:10s)
+[&#39;&#39;You&#39;&#39;: //No, Joe.// ]
 
-&#39;&#39;Joe&#39;&#39;: //So, now what?// 
+(after:11s)
+[&#39;&#39;Joe&#39;&#39;: //So, now what?//]
 
-&#39;&#39;You&#39;&#39;: [[Let&#39;s clean your room.]]</tw-passagedata><tw-passagedata pid="23" name="&#39;Bigger Than The Whole Sky&#39;" tags="" position="1225,450" size="100,100">LYRICS: 
+(after:12s)
+[&#39;&#39;You&#39;&#39;: [[Let&#39;s clean your room.]]
+]</tw-passagedata><tw-passagedata pid="23" name="&#39;Bigger Than The Whole Sky&#39;" tags="bttws" position="1200,400" size="100,100">LYRICS: 
 
 No words appear before me in the aftermath
 Salt streams out my eyes and into my ears
@@ -422,207 +578,298 @@ I&#39;ve got a lot to live without
 I&#39;m never gonna meet
 What could&#39;ve been, would&#39;ve been
 What should&#39;ve been you
-</tw-passagedata><tw-passagedata pid="24" name="Let&#39;s clean your room." tags="" position="1075,575" size="100,100">You sit up from his bed and took out a bag to throw all his trash in. He hasn&#39;t moved a muscle. 
+
+&lt;audio src=&quot;https://143972805-232733769981849242.preview.editmysite.com/uploads/1/4/3/9/143972805/taylor_swift_-_bigger_than_the_whole_sky_empiretunez.com.mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="24" name="Let&#39;s clean your room." tags="room" position="1150,550" size="100,100">You sit up from his bed and took out a bag to throw all his trash in. He hasn&#39;t moved a muscle. 
 
 You continue anyways. 
 
-&#39;&#39;You&#39;&#39;: //Aren&#39;t you going to help?// 
+(after:2s)
+[&#39;&#39;You&#39;&#39;: //Aren&#39;t you going to help?//]
 
-He sighs, reluctantly agreeing to help you. 
+(after:3s)
+[He sighs, reluctantly agreeing to help you. 
 
-He picks up all the things on the floor, one of them is a photobooth picture of you two on your [[one year anniversary.]]</tw-passagedata><tw-passagedata pid="25" name="one year anniversary." tags="" position="1300,700" size="100,100">&#39;&#39;Joe&#39;&#39;: //Look.// 
+He picks up all the things on the floor, one of them is a photobooth picture of you two on your [[one year anniversary.]]
+]</tw-passagedata><tw-passagedata pid="25" name="one year anniversary." tags="fair" position="1300,700" size="100,100">(after:1s)
+[&#39;&#39;Joe&#39;&#39;: //Look.//]
 
-You peer over to him and you see the picture, when you touch it - you&#39;re both suddenly in Winter Wonderland. Similar to the park, you didn&#39;t take him to a memory, you took him to a place, so it was empty while all the rides were on. 
+(after:2s)
+[You peer over to him and you see the picture, when you touch it - you&#39;re both suddenly in Winter Wonderland. Similar to the park, you didn&#39;t take him to a memory, you took him to a place, so it was empty while all the rides were on. 
 
-You test the limits of your power so you will music to start playing as well. You see Joe light up, he&#39;s smiling so widely and it was like you were seeing him for the first time again. 
+You test the limits of your power so you will music to start playing as well. You see Joe light up, he&#39;s smiling so widely and it was like you were seeing him for the first time again.]
 
-&#39;&#39;Joe&#39;&#39;: //Which will it be? Carousell or ferris wheel?// 
+(after:4s)
+[&#39;&#39;Joe&#39;&#39;: //Which will it be? Carousell or ferris wheel?// ]
 
-&#39;&#39;You&#39;&#39;: //Not even gunning for the scary rides, eh?// 
+(after:5s)
+[&#39;&#39;You&#39;&#39;: //Not even gunning for the scary rides, eh?// ]
 
-&#39;&#39;Joe&#39;&#39;: //I know we&#39;re in your freaky ghost world thing, but I don&#39;t plan on dying like that.// 
+(after:6s)
+[&#39;&#39;Joe&#39;&#39;: //I know we&#39;re in your freaky ghost world thing, but I don&#39;t plan on dying like that.// 
 
-You feel hopeful. 
+You feel hopeful.
 
 [[Carousell]] 
 
-[[Ferris Wheel]]</tw-passagedata><tw-passagedata pid="26" name="Carousell" tags="" position="1400,850" size="100,100">&#39;&#39;You&#39;&#39;: //Carousell?// 
+[[Ferris Wheel]]
+]</tw-passagedata><tw-passagedata pid="26" name="Carousell" tags="cr" position="1450,850" size="100,100">(after:1s)
+[&#39;&#39;You&#39;&#39;: //Carousel?// 
 
-He nods, and we walk towards the carousell. 
+He nods, and we walk towards the carousel.]
 
-&#39;&#39;Joe&#39;&#39;: //Dibs on the badass black horse. Fuck that snotty kid for taking him away from him last time.// 
+(after:2s)
+[&#39;&#39;Joe&#39;&#39;: //Dibs on the badass black horse. Fuck that snotty kid for taking him away from him last time.//]
 
-&#39;&#39;You&#39;&#39;: //Still hate kids?// 
+(after:3s)
+[&#39;&#39;You&#39;&#39;: //Still hate kids?//]
 
-&#39;&#39;Joe&#39;&#39;: //Every single child below 12 besides Seth.// 
+(after:4s)
+[&#39;&#39;Joe&#39;&#39;: //Every single child below 12 besides Seth.//]
 
-&#39;&#39;You&#39;&#39;: //How is he?// 
+(after:5s)
+[&#39;&#39;You&#39;&#39;: //How is he?//]
 
-&#39;&#39;Joe&#39;&#39;: //He...uh..//
+(after:6s)
+[&#39;&#39;Joe&#39;&#39;: //He...uh..//
 
-His smile falters and you both stop in your tracks. 
+His smile falters and you both stop in your tracks. ]
 
-&#39;&#39;Joe&#39;&#39;: //He was dianosed with stage 4... actually. Which adds to my whole.. yeah.// 
+(after:7s)
+[&#39;&#39;Joe&#39;&#39;: //He was dianosed with stage 4... actually. Which adds to my whole.. yeah.//]
 
-&#39;&#39;You&#39;&#39;: //I&#39;m sorry.//
+(after:8s)
+[&#39;&#39;You&#39;&#39;: //I&#39;m sorry.//]
 
-&#39;&#39;Joe&#39;&#39;: //It&#39;s okay.// 
+(after:9s)
+[&#39;&#39;Joe&#39;&#39;: //It&#39;s okay.//]
 
-His lips purse in a tight lipped smile and he nods to the carousell, continuing your walk there. 
+(after:10s)
+[His lips purse in a tight lipped smile and he nods to the carousell, continuing your walk there. ]
 
-He excitedly jumps on the mighty black horse and you laugh at how excited he is. You sit on the pink unicorn next to him and you will the carousell to come alive. 
+(after:11s)
+[He excitedly jumps on the mighty black horse and you laugh at how excited he is. You sit on the pink unicorn next to him and you will the carousell to come alive.]
 
-&#39;&#39;You&#39;&#39;: //Wait, watch this.// 
+(after:12s)
+[&#39;&#39;You&#39;&#39;: //Wait, watch this.//]
 
-You will the carousell song to change to Last Christmas by WHAM! and he laughs. This was the song you two sang at the karaoke bar when you met his friends for the first time. 
+(after:13s)
+[You will the carousell song to change to Last Christmas by WHAM! and he laughs. This was the song you two sang at the karaoke bar when you met his friends for the first time. ]
 
-You sing the song together, and when it hits the chorus, he gets off his horse and makes you come off yours. 
+(after:14s)
+[You sing the song together, and when it hits the chorus, he gets off his horse and makes you come off yours. ]
 
-He twirls and dances and sings around the carousell, riding on different horses and carriages in his cute silly ways. You sing to each other. You&#39;re literally in your own music video scene. 
+(after:15s)
+[He twirls and dances and sings around the carousell, riding on different horses and carriages in his cute silly ways. You sing to each other. You&#39;re literally in your own music video scene. ]
 
-When the song finishes, he&#39;s out of breath and the carousell halts to a stop. He sits on the the two-person seater santa sledge and pats on the seat next to him. I sit down. 
+(after:16s)
+[When the song finishes, he&#39;s out of breath and the carousell halts to a stop. He sits on the the two-person seater santa sledge and pats on the seat next to him. I sit down. ]
 
-&#39;&#39;Joe&#39;&#39;: //That was kind of the happiest I&#39;ve felt in a while, I have to be honest. Thank you.// 
+(after:17s)
+[&#39;&#39;Joe&#39;&#39;: //That was kind of the happiest I&#39;ve felt in a while, I have to be honest. Thank you.//]
 
-&#39;&#39;You&#39;&#39;: //Of course.// 
+(after:18s)
+[&#39;&#39;You&#39;&#39;: //Of course.//]
 
-There is no doubt that he is a beautiful boy, but he was so lifeless that it sucked all of the vibrancy out of him. At that moment, however, you saw the boy you fell in love with. 
+(after:19s)
+[There is no doubt that he is a beautiful boy, but he was so lifeless that it sucked all of the vibrancy out of him. At that moment, however, you saw the boy you fell in love with.]
 
-&#39;&#39;Joe&#39;&#39;: // I don&#39;t know what to do, $name. If I&#39;m being honest.// 
+(after:20s)
+[&#39;&#39;Joe&#39;&#39;: // I don&#39;t know what to do, $name. If I&#39;m being honest.//]
 
-&#39;&#39;You&#39;&#39;: //You&#39;re overdue a haircut, I think.// 
+(after:21s)
+[&#39;&#39;You&#39;&#39;: //You&#39;re overdue a haircut, I think.//]
 
-&#39;&#39;Joe&#39;&#39;: //I&#39;m serious.// 
+(after:22s)
+[&#39;&#39;Joe&#39;&#39;: //I&#39;m serious.//]
 
-&#39;&#39;You&#39;&#39;: //And I am too. Promise me you&#39;ll get one when I leave.//
+(after:23s)
+[&#39;&#39;You&#39;&#39;: //And I am too. Promise me you&#39;ll get one when I leave.//]
 
-He hesitates so you pull his hoodie string off, to his annoyance, and tie it around your pinky finger. You hold it out, and reluctantly links it with yours.
+(after:24s)
+[He hesitates so you pull his hoodie string off, to his annoyance, and tie it around your pinky finger. You hold it out, and reluctantly links it with yours.]
 
-You give it a ghost kiss and you can see a bit of pink on his cheeks. It&#39;s cute. You both [[get out.]] of the carousell.
+(after:25s)
+[You give it a ghost kiss and you can see a bit of pink on his cheeks. It&#39;s cute. You both [[get out.]] of the carousell.]
 
-</tw-passagedata><tw-passagedata pid="27" name="Ferris Wheel" tags="" position="1550,650" size="100,100">&#39;&#39;You&#39;&#39;: //Ferris wheel?//
 
-&#39;&#39;Joe&#39;&#39;: //Come on then.// 
+&lt;audio src=&quot;https://iminluvwithjudas.weebly.com/uploads/1/4/3/9/143972805/wham__-_last_christmas__lyrics_.mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="27" name="Ferris Wheel" tags="fw" position="1525,700" size="100,100">(after:1s)
+[&#39;&#39;You&#39;&#39;: //Ferris wheel?//]
 
-He reaches for your hand instinctively but obviously, you&#39;re basically air to him. His face falls for a second but he shrugs it off. 
+(after:2s)
+[&#39;&#39;Joe&#39;&#39;: //Come on then.//
 
-&#39;&#39;Joe&#39;&#39;: //Race you there.// 
+He reaches for your hand instinctively but obviously, you&#39;re basically air to him. His face falls for a second but he shrugs it off.]
 
-He runs for it and you watch him dash for it, in a snap of a finger you arrive there and when he arrives, huffing and puffing, he gives you the finger. 
+(after:3s)
+[&#39;&#39;Joe&#39;&#39;: //Race you there.//
 
-&#39;&#39;Joe&#39;&#39;: //This is humanist.// 
+He runs for it and you watch him dash for it, in a snap of a finger you arrive there and when he arrives, huffing and puffing, he gives you the finger.]
 
-&#39;&#39;You&#39;&#39;:  //Hey, be respectful to the dead!// 
+(after:4s)
+[&#39;&#39;Joe&#39;&#39;: //This is humanist.// ]
 
-&#39;&#39;Joe&#39;&#39;: //Glad to know that you&#39;re still insufferable even in the afterlife.// 
+(after:5s)
+[&#39;&#39;You&#39;&#39;:  //Hey, be respectful to the dead!//]
 
-You roll your eyes. He opens the door for you and you enter, he follows suit. You will the ferris wheel to spin and you&#39;re immediately brought up. 
+(after:6s)
+[&#39;&#39;Joe&#39;&#39;: //Glad to know that you&#39;re still insufferable even in the afterlife.// 
 
-&#39;&#39;Joe&#39;&#39;: //God, I wish you were really here.// 
+You roll your eyes. He opens the door for you and you enter, he follows suit. You will the ferris wheel to spin and you&#39;re immediately brought up. ]
 
-&#39;&#39;You&#39;&#39;: //Me too.// 
+(after:7s)
+[&#39;&#39;Joe&#39;&#39;: //God, I wish you were really here.//]
 
-We look at each other. Joe looks at me with so much love in his eyes that I almost feel alive again. 
+(after:8s)
+[&#39;&#39;You&#39;&#39;: //Me too.// 
 
-&#39;&#39;Joe&#39;&#39;: //You really are out of this world. Literally.// 
+We look at each other. Joe looks at me with so much love in his eyes that I almost feel alive again. ]
 
-&#39;&#39;You&#39;&#39;: //Thank you.// 
+(after:9s)
+[&#39;&#39;Joe&#39;&#39;: //You really are out of this world. Literally.// ]
 
-&#39;&#39;Joe&#39;&#39;: //You&#39;re not even going to call me cute? Okay, I see how it is.// 
+(after:10s)
+[&#39;&#39;You&#39;&#39;: //Thank you.// ]
 
-&#39;&#39;You&#39;&#39;: //Shut up, you know you&#39;re cute. You gotta promise me to get a haircut today though.//
+(after:11s)
+[&#39;&#39;Joe&#39;&#39;: //You&#39;re not even going to call me cute? Okay, I see how it is.//]
 
-He&#39;s silent for a beat. 
+(after:12s)
+[&#39;&#39;You&#39;&#39;: //Shut up, you know you&#39;re cute. You gotta promise me to get a haircut today though.//
 
-&#39;&#39;You&#39;&#39;: Promise me. 
+He&#39;s silent for a beat. ]
 
-You pull his hoodie string off, to his annoyance, and tie it around your pinky finger. You hold it out, and reluctantly links it with yours.
+(after:13s)
+[&#39;&#39;You&#39;&#39;: Promise me.]
 
-He looks at your pinkies and you see his cheeks turn pink, a bit of life seeping into him. 
+(after:14s)
+[You pull his hoodie string off, to his annoyance, and tie it around your pinky finger. You hold it out, and reluctantly links it with yours.]
 
-You reach the top of the ferris wheel and you see the view of London, we were taken by the view and despite the fact that we&#39;ve been here before, we made a new memory. 
+(after:15s)
+[He looks at your pinkies and you see his cheeks turn pink, a bit of life seeping into him. ]
 
-&#39;&#39;Joe&#39;&#39;: //Thank you for taking us here.// 
+(after:16s)
+[You reach the top of the ferris wheel and you see the view of London, we were taken by the view and despite the fact that we&#39;ve been here before, we made a new memory.]
 
-&#39;&#39;You&#39;&#39;: //Of course.// 
+(after:17s)
+[&#39;&#39;Joe&#39;&#39;: //Thank you for taking us here.//]
 
-The ferris wheel comes down, and you both [[get out.]]</tw-passagedata><tw-passagedata pid="28" name="get out." tags="" position="1650,925" size="100,100">You and him stand in the middle of an empty Winter Wonderland, pinkies linked. It was as if nothing happened, in that moment. 
+(after:18s)
+[&#39;&#39;You&#39;&#39;: //Of course.// 
+
+The ferris wheel comes down, and you both [[get out.]]
+
+]
+
+&lt;audio src=&quot;https://iminluvwithjudas.weebly.com/uploads/1/4/3/9/143972805/taylor_swift_-_love_story__wedding_version__with_canon_in_d_|_piano_cover_by_paul_hankinson.mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="28" name="get out." tags="fair" position="1650,925" size="100,100">You and him stand in the middle of an empty Winter Wonderland, pinkies linked. It was as if nothing happened, in that moment. 
 
 You willed snow to come down, and it did. 
 
-&#39;&#39;Joe&#39;&#39;: //You did this?// 
+(after:2s)
+[&#39;&#39;Joe&#39;&#39;: //You did this?//]
 
-&#39;&#39;You&#39;&#39;: //Yeah, thought it&#39;d be cute.// 
+(after:3s)
+[&#39;&#39;You&#39;&#39;: //Yeah, thought it&#39;d be cute.//]
 
-&#39;&#39;Joe&#39;&#39;: //Do all ghosts get superpowers?// 
+(after:4s)
+[&#39;&#39;Joe&#39;&#39;: //Do all ghosts get superpowers?//]
 
-&#39;&#39;You&#39;&#39;: //Only the sexy ones.// 
+(after:5s)
+[&#39;&#39;You&#39;&#39;: //Only the sexy ones.// 
 
-He rolls his eyes and shakes his head, laughing softly. 
+He rolls his eyes and shakes his head, laughing softly. ]
 
-&#39;&#39;You&#39;&#39;: //Shall we go back?// 
+(after:6s)
+[&#39;&#39;You&#39;&#39;: //Shall we go back?// 
 
 He nods. You take his hand, and you&#39;re [[back in his room.]] 
-</tw-passagedata><tw-passagedata pid="29" name="back in his room." tags="" position="1900,775" size="100,100">You&#39;re back in his room, it&#39;s a lot cleaner and brighter. You see the timer and saw that you only have an hour left. 
+]</tw-passagedata><tw-passagedata pid="29" name="back in his room." tags="room" position="1900,775" size="100,100">You&#39;re back in his room, it&#39;s a lot cleaner and brighter. You see the timer and saw that you only have an hour left. 
 
 He lies on his bed and looks at you, he just keeps looking at you. 
 
-&#39;&#39;You&#39;&#39;: //What?&#39;//
+(after:2s)
+[&#39;&#39;You&#39;&#39;: //What?&#39;//]
 
-&#39;&#39;Joe&#39;&#39;: //Oh, I don&#39;t know. It&#39;s not everyday your dead girlfriend comes back as a ghost.//
+(after:3s)
+[&#39;&#39;Joe&#39;&#39;: //Oh, I don&#39;t know. It&#39;s not everyday your dead girlfriend comes back as a ghost.//]
 
-&#39;&#39;You&#39;&#39;: //Nope.// 
+(after:4s)
+[&#39;&#39;You&#39;&#39;: //Nope.//]
 
-&#39;&#39;Joe&#39;&#39;: //You can&#39;t go back again?// 
+(after:5s)
+[&#39;&#39;Joe&#39;&#39;: //You can&#39;t go back again?//]
 
-&#39;&#39;You&#39;&#39;: //No, I have to go in an hour.// 
+(after:6s)
+[&#39;&#39;You&#39;&#39;: //No, I have to go in an hour.//]
 
-&#39;&#39;Joe&#39;&#39;: //Yeah.// 
+(after:7s)
+[&#39;&#39;Joe&#39;&#39;: //Yeah.//]
 
-You take a pen and paper and you sit next to him. You tell him to turn around and he does, scoffing playfully. 
+(after:8s)
+[You take a pen and paper and you sit next to him. You tell him to turn around and he does, scoffing playfully.]
 
-&#39;&#39;You&#39;&#39;: //No peeking. Read it when I&#39;m gone, okay?// 
+(after:9s)
+[&#39;&#39;You&#39;&#39;: //No peeking. Read it when I&#39;m gone, okay?//]
 
-&#39;&#39;Joe&#39;&#39;: //Yessir.// 
+(after:10s)
+[&#39;&#39;Joe&#39;&#39;: //Yessir.//]
 
-You write him [[a letter.]] When you&#39;re done, you fold it and you put it in his pocket. 
+(after:11s)
+[You write him [[a letter.]] When you&#39;re done, you fold it and you put it in his pocket. ]
 
-&#39;&#39;Joe&#39;&#39;: //Done?// 
+(after:12s)
+[&#39;&#39;Joe&#39;&#39;: //Done?//]
 
-You nod. You go over to his closet, you take a towel and you wrap it around your shoulders. It works, somehow. 
+(after:13s)
+[You nod. You go over to his closet, you take a towel and you wrap it around your shoulders. It works, somehow.]
 
-You go back to him and he tries holding you through the towel, you&#39;re both surprised that it worked. 
+(after:14s)
+[You go back to him and he tries holding you through the towel, you&#39;re both surprised that it worked.]
 
-He holds you and you two talk the way you always have before everything happened. You talk until the sun comes up and he&#39;s asleep. 
+(after:15s)
+[He holds you and you two talk the way you always have before everything happened. You talk until the sun comes up and he&#39;s asleep.]
 
-You jerk awake when the timer vibrates and you realize you have a minute left, you see Joe sleeping peacefully. You wake him. 
+(after:16s)
+[You jerk awake when the timer vibrates and you realize you have a minute left, you see Joe sleeping peacefully. You wake him. ]
 
-&#39;&#39;Joe&#39;&#39;: //Yeah?// 
+(after:17s)
+[&#39;&#39;Joe&#39;&#39;: //Yeah?//]
 
-&#39;&#39;You&#39;&#39;: //I have to go.// 
+(after:18s)
+[&#39;&#39;You&#39;&#39;: //I have to go.//]
 
-&#39;&#39;Joe&#39;&#39;: //What?// 
+(after:19s)
+[&#39;&#39;Joe&#39;&#39;: //What?//]
 
-&#39;&#39;You&#39;&#39;: //I love you, Joe.// 
+(after:20s)
+[&#39;&#39;You&#39;&#39;: //I love you, Joe.//]
 
-&#39;&#39;Joe&#39;&#39;: //I love you too, $name.// 
+(after:21s)
+[&#39;&#39;Joe&#39;&#39;: //I love you too, $name.//]
 
-You disperse into stardust and you&#39;re [[back in the clouds -&gt; ending2]]
+(after:22s)
+[You disperse into stardust and you&#39;re [[back in the clouds -&gt; ending2]]
+]
 
-
-</tw-passagedata><tw-passagedata pid="30" name="a letter." tags="" position="1700,725" size="100,100">//We never got to say goodbye and so, this is mine for you. I know you, and I know how much you love life. I know how much you love your family, and your friends, and all the little things. I want you to live the life that was robbed from me, I want you to take every single moment and taste it. 
+</tw-passagedata><tw-passagedata pid="30" name="a letter." tags="letter" position="1700,700" size="100,100">//We never got to say goodbye and so, this is mine for you. I know you, and I know how much you love life. I know how much you love your family, and your friends, and all the little things. I want you to live the life that was robbed from me, I want you to take every single moment and taste it. 
 
 Not to sound like a typical Facebook millenial post, but please do everything you&#39;ve ever  dreamed of doing. Fall in love again. Fall in love with living again, because fuck&#39;s sake Joe, if anyone deserves to be happy - it&#39;s you. 
 
 When I see you next, you better have sexy white hair, a Santa belly and many adventures to tell. //
-</tw-passagedata><tw-passagedata pid="31" name=" ending2" tags="" position="1900,600" size="100,100">The angel baby looks at you, smiling. He doesn&#39;t say anything, he just takes your hand and leads you across the bridge. 
+
+</tw-passagedata><tw-passagedata pid="31" name=" ending2" tags="heaven" position="1900,600" size="100,100">The angel baby looks at you, smiling. He doesn&#39;t say anything, he just takes your hand and leads you across the bridge. 
 
 If you had a heart, it&#39;d be thumping right now. With every step you take, the clouds start to disappear into nothingness. 
 
 You reach the door and you turn the knob, you&#39;re surprised to see that it turns. You take a step and immediately you&#39;re greeted with a silver-haired, Santa bellied man that you instantly recognize to be Joe. 
 
-Around you is literally paradise, it&#39;s green, lush, and everything you&#39;d imagine heaven to be. It&#39;s beautiful, and you feel the kind of happiness that will stay with you forever. </tw-passagedata><tw-passagedata pid="32" name="student id? " tags="startup" position="375,200" size="100,100">&#39;&#39;STUDENT ID&#39;&#39;: 30028711
-&#39;&#39;NAME&#39;&#39;: SAMATHA VISAKHA</tw-passagedata></tw-storydata>
+Around you is literally paradise, it&#39;s green, lush, and everything you&#39;d imagine heaven to be. It&#39;s beautiful, and you feel the kind of happiness that will stay with you forever. 
+
+
+&lt;audio src=&quot;https://iminluvwithjudas.weebly.com/uploads/1/4/3/9/143972805/bts_ë°©%C3%AD%C2%83%C2%84ì%C2%86%C2%8Cë%C2%85%C2%84ë%C2%8B¨_ë´%C2%84ë%C2%82%C2%A0_spring_day_piano_string_orchestra_version-2.mp3&quot; autoplay&gt;
+</tw-passagedata><tw-passagedata pid="32" name="student id? " tags="startup" position="375,200" size="100,100">&#39;&#39;STUDENT ID&#39;&#39;: 30028711
+&#39;&#39;NAME&#39;&#39;: SAMATHA VISAKHA
+
+</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
